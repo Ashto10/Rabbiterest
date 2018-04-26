@@ -1,0 +1,21 @@
+extends layout
+
+block head
+  title Rabbiterest | Home
+  
+append body
+  .container-fluid
+    h1 Latest Collections
+    for userCollection in collections
+      .collection
+        .profile-info
+          a(href="/browse/" + userCollection.id).btn.btn-sm.btn-primary View more
+          img(src=userCollection.icon).icon
+          p #[=userCollection.name]'s rabbits        
+            
+        .preview-images
+          for link in userCollection.links
+            img(src=link.imageURI)
+    
+block script
+  script( src="/controllers/userController.client.js" type="text/javascript")
