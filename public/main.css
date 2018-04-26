@@ -1,0 +1,62 @@
+body {
+  background: #f6f7f7;
+}
+
+.grid {
+  margin: 0 auto;
+}
+
+.navbar {
+  background: #f6f7f7;
+}
+
+.link-container {
+  width: 19%;
+  float: left;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 .5% 10px;
+}
+
+.link-container img {
+  width: 100%;
+  height: auto;
+}
+
+.link-container .link-controls {
+  background: #cac88c;
+  border-radius: 0 0 10px 10px;
+  padding: 5px 10px
+}
+
+.collection {
+  background: white;
+  border: 3px solid #cac88c;
+  border-radius: 10px;
+}
+
+.collection .profile-info {
+  background: #cac88c;
+  height: 50px;
+  line-height: 2em;
+  color: #f6f7f7;
+  font-size: 1.4em; 
+}
+
+.profile-info a {
+  float: right;
+  margin: .5em;
+}
+
+.collection .icon {
+  float: left;
+  height: 100%;
+  margin: 0 10px;
+  border-bottom: 3px solid #cac88c;
+}
+
+.preview-images img {
+  width: 19%;
+  height: auto;
+  margin: 0.5%
+}
